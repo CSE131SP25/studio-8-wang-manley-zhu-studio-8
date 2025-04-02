@@ -6,12 +6,14 @@ import support.cse131.NotYetImplementedException;
 
 public class Quiz {
 	
+	
+	private Question[] question;
 	/**
 	 * Constructor
 	 * @param questions
 	 */
 	public Quiz(Question[] questions) {
-		throw new NotYetImplementedException();
+		question = questions;
 	}
 	
 	/**
@@ -41,7 +43,7 @@ public class Quiz {
 	 * @param in Scanner object to feed into getUserAnswer
 	 */
 	public void takeQuiz(Scanner in) {
-		throw new NotYetImplementedException();
+		
 	}
 	
 	
